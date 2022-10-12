@@ -2,7 +2,7 @@
 
 Projeto de criação de uma Agenda de Contatos.
 
-O contato posuí Id, Nome, E-mail, Telefone Celular e telefone Fixo.
+O contato possuí Id, Nome, E-mail, Telefone Celular e telefone Fixo.
 
 Há um relacionamneto entre telefone e contato.
 
