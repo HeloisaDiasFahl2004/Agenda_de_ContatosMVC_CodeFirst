@@ -133,7 +133,9 @@ namespace Agenda_de_ContatosMVC_CodeFirst.Service
                     return;
                 }
                 context.Entry(find).State = EntityState.Deleted;
+                context.Entry(findPerson).State = EntityState.Deleted;
                 context.Phones.Remove(find);
+                context.Persons.Remove(findPerson);
                 context.SaveChanges();
                 Console.WriteLine("Contato deletado!");
 
