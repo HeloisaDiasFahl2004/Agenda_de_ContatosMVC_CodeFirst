@@ -20,8 +20,8 @@ namespace Agenda_de_ContatosMVC_CodeFirst.Models
 
         public override string ToString()
         {
-            return $"Id: {Id}  IdContato: {IdPerson} " +
-                $"\nCelular: {Mobile}  Fixo: {Landline} ";
+            return $"Id: {Id}  \nNomeContato: {Person.Name} " +
+                $"\nCelular: {Mobile}  \nFixo: {Landline} ";
 
         }
     }

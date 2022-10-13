@@ -17,8 +17,7 @@ namespace Agenda_de_ContatosMVC_CodeFirst.Models
         public override string ToString()
         {
             return 
-                $"Nome: {Name}" +
-                $"\nE-mail:{Mail}";
+                $"E-mail:{Mail}";
         }
     }
 }

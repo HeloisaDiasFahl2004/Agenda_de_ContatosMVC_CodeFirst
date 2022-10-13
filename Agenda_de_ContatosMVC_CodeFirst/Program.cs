@@ -12,7 +12,6 @@ namespace Agenda_de_ContatosMVC_CodeFirst
     {
         static PersonController controls = new PersonController();
 
-
         static void Menu()
         {
             int opc;
